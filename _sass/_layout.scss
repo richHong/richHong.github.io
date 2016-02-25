@@ -179,6 +179,7 @@
     height:110px;
     position:absolute;
     left: 7%;
+    z-index:2;
 }
 
 /**
@@ -186,9 +187,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    height: 375px;
+    width: 100%;
+    bottom: 90px;
+    top: 56px;
     overflow:auto;
     background-color:#ECE9E6;
+    position:absolute
                
 }
 
