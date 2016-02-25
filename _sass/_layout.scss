@@ -2,10 +2,14 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+  
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    position:fixed;    
+    background:                                  #304352; 
+    background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); 
+    background:         linear-gradient(to left, #304352 , #d7d2cc); 
+        
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -100,6 +104,15 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    background:                                  #304352; 
+    background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); 
+    background:         linear-gradient(to left, #304352 , #d7d2cc); 
+         
+        
 }
 
 .footer-heading {
@@ -115,7 +128,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: black;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -162,13 +175,21 @@
     }
 }
 
-
+#pic {
+    height:110px;
+    position:absolute;
+    left: 7%;
+}
 
 /**
  * Page content
  */
 .page-content {
     padding: $spacing-unit 0;
+    height: 375px;
+    overflow:auto;
+    background-color:#ECE9E6;
+               
 }
 
 .page-heading {

@@ -8,8 +8,8 @@
 # Site settings
 title: Richard's Blog
 email: rich.hong@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is Richard's new blog.
+description:  # this means to ignore newlines until "baseurl:"
+  "A tech blog written by a junior web developer enrolled at Telegraph Academy."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://richHong.github.io" # the base hostname & protocol for your site
 twitter_username: richHong81
