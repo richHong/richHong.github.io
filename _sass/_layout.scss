@@ -103,11 +103,11 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: 15px 0;
     position:fixed;
     bottom:0;
     width: 100%;
-    height: 60px;
+    height: 90px;
     background:                                  #304352; 
     background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); 
     background:         linear-gradient(to left, #304352 , #d7d2cc); 
@@ -117,7 +117,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 4;
 }
 
 .contact-list,
@@ -140,13 +140,13 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
