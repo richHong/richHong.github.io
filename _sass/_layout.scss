@@ -176,10 +176,9 @@
 }
 
 #pic {
-    height:110px;
-    position:absolute;
-    left: 7%;
-    z-index:2;
+    height:90px;
+
+    margin-left: 200px;
 }
 
 /**
@@ -189,11 +188,11 @@
     padding: $spacing-unit 0;
     width: 100%;
     bottom: 90px;
-    top: 56px;
+    top: 90px;
     overflow:auto;
     background-color:#ECE9E6;
-    position:absolute
-               
+    position:absolute;
+    z-index:-1;
 }
 
 .page-heading {
