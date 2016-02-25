@@ -177,8 +177,8 @@
 
 #pic {
     height:90px;
-
-    margin-left: 200px;
+    left: 50%;
+    position: fixed;
 }
 
 /**
@@ -188,7 +188,7 @@
     padding: $spacing-unit 0;
     width: 100%;
     bottom: 90px;
-    top: 90px;
+    top: 56px;
     overflow:auto;
     background-color:#ECE9E6;
     position:absolute;
