@@ -2,7 +2,7 @@
 layout: post
 title:  "Recursion"
 date:   2016-02-25
-tag: recursion javascript
+categories: javascript recursion
 ---
 
 What is Recursion?
