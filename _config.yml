@@ -9,7 +9,7 @@
 title: Richard's Blog
 email: rich.hong@gmail.com
 description:  # this means to ignore newlines until "baseurl:"
-  "A tech blog written by a junior web developer enrolled at Telegraph Academy."
+  "A tech blog written by a junior web developer enrolled at <a href='http://www.telegraphacademy.com'>Telegraph Academy</a>."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://richHong.github.io" # the base hostname & protocol for your site
 twitter_username: richHong81
@@ -18,3 +18,6 @@ linkedin_username: richhong
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
