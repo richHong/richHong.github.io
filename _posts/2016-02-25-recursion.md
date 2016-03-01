@@ -26,7 +26,7 @@ The Recursive Case and the Base Case
 
 _.flatten
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's take a look at a more complex example with the underscore function, _.flatten. This function will take a nested array and put all elements on one level. For instance the array, [[3, 4], [5, 6]], would have a flattened array, [3, 4, 5, 6]. See the code snippet below.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's take a look at a more complex example with the underscore function, _.flatten. This function will take a nested array and put all elements on one level. For instance the array, [[3, 4], [5, 6]], would have a flattened array of [3, 4, 5, 6]. See the code snippet below.
 
 {% highlight javascript linenos %}
 var _.flatten = function(nestedArray, result) {
