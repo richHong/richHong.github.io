@@ -34,16 +34,16 @@ var _.flatten = function(nestedArray, result) {
     result = [];
   } 
   nestedArray.forEach(function(element) {
-    if (!Array.isArray(element)) {
-      result.push(element);
-    } else {
+    if (Array.isArray(element)) {
       flatten(element, result);
+    } else {
+      result.push(element);
     }
   });
   return result;
 };
   {% endhighlight %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If we did not have recursion, we would have to create a for loop for each level of nesting. If the element is very deeply nested, we run into problems very quickly. But since we are able to use recursion, it can simplify the process by looping through each nest of the array until an element is found. Starting on line 6, we see our base case which checks for the presence of an array, and pushes the element into the result array. On line 9, we see our recursive case, which will call the _.flatten function on any arrays found. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If we did not have recursion, we would have to create a for loop for each level of nesting. If the element is very deeply nested, we run into problems very quickly. But since we are able to use recursion, it can simplify the process by looping through each nest of the array until an element is found. Starting on line 6, we see our recursive case, which will call the _.flatten function on any arrays found. On line 9 we see our base case which pushes the element into the result array when a non-array element is found.  
 
 So there you have it! You now have a better understanding of recursion.
