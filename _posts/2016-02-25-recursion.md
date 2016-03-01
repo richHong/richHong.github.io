@@ -44,6 +44,6 @@ var _.flatten = function(nestedArray, result) {
 };
   {% endhighlight %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If we did not have recursion, we would have to create a for loop for each level of nesting. If the element is very deeply nested, we run into problems very quickly. But since we are able to use recursion, it can simplify the process by looping through each nest of the array until an element is found. On line 6 and 7, we see our base case which checks for the presence of an array, and pushes the result into an array if it is not an array. On line 9, we see our recursive case, which will call the _.flatten function on any arrays found. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If we did not have recursion, we would have to create a for loop for each level of nesting. If the element is very deeply nested, we run into problems very quickly. But since we are able to use recursion, it can simplify the process by looping through each nest of the array until an element is found. On line 6 and 7, we see our base case which checks for the presence of an array, and pushes the element into the result array. On line 9, we see our recursive case, which will call the _.flatten function on any arrays found. 
 
 So there you have it! You now have a better understanding of recursion.
