@@ -10,5 +10,5 @@ permalink: /about/
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am currently enrolled at Telegraph Academy in Berkeley, where I will start my 12 week immersive program in a couple weeks. I am absolutely excited and look forward to be able to create meaningful and amazing apps and dynamic websites. I completely stand behind Telegraph Academy's mission to promote under-represented minorities in tech and hope that I can inherit and pass on those values to my future career. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will try this blog up to date as I continue to learn the wonderful world of software engineering. It truly is remarkable to see how quickly you can learn something you are passionate about and putting your thoughts into words really solidifies your knowledge on the topic. Thank you for reading.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will try to keep this blog up to date as I continue to learn the wonderful world of software engineering. It truly is remarkable to see how quickly you can learn something you are passionate about and putting your thoughts into words really solidifies your knowledge on the topic. Thank you for reading.
   
