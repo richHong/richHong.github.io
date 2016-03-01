@@ -18,7 +18,7 @@ var factorial = function(n) {
 };
 {% endhighlight %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On line 5, we are calling factorial within itself, however we are calling it on (n-1). The function will essentially tumble down positive integers until it reaches zero. So for instance, if n where equal to 5, the function will return 5 * factorial(n-1) which will return 5 * 4 * factorial(n-1) and so on... until we end up with 5 * 4 * 3 * 2 * 1. When n gets down to zero, the function returns 1 resulting in the answer of 120.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On line 5, we are calling factorial within itself, however we are calling it on (n-1). The function will essentially tumble down positive integers until it reaches zero. So for instance, if n where equal to 5, the function will return 5 * factorial(4) which will return 5 * 4 * factorial(3) and so on... until we end up with 5 * 4 * 3 * 2 * 1 * factorial(0). When n gets down to zero, the function returns 1 resulting in the answer of 120.
 
 The Recursive Case and the Base Case
 ---
