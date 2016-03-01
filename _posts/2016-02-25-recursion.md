@@ -35,7 +35,7 @@ var _.flatten = function(nestedArray, result) {
   } 
   nestedArray.forEach(function(element) {
     if (Array.isArray(element)) {
-      flatten(element, result);
+      _.flatten(element, result);
     } else {
       result.push(element);
     }
