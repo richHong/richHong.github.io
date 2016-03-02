@@ -5,6 +5,8 @@ date:   2016-02-25
 categories: javascript
 ---
 
+![Recursion](http://cdn.meme.am/instances/500x/63436052.jpg)
+
 What is Recursion?
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recursion is an important programming technique where a function can call itself repeatedly until it arrives at the desired result. It can be considered a type of looping. Recursion is a concept that is not easily understood when first introduced to beginning programmers. The classic example is the factorial function. The factorial of n is the product of all positive integers less than or equal to n. See the code snippet below.
